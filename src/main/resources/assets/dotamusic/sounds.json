@@ -1,0 +1,10 @@
+{
+  "splesnik": {
+    "sounds": [
+      {
+        "name": "dotamusic:splesnik",
+        "stream": true
+      }
+    ]
+  }
+}

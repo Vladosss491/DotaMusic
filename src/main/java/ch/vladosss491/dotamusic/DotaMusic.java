@@ -1,5 +1,8 @@
 package ch.vladosss491.dotamusic;
 
+import ch.vladosss491.dotamusic.item.ModCreativeModeTabs;
+import ch.vladosss491.dotamusic.item.ModItems;
+import ch.vladosss491.dotamusic.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -46,6 +49,12 @@ public class DotaMusic
     public DotaMusic(IEventBus modEventBus, ModContainer modContainer)
     {
         modEventBus.addListener(this::commonSetup);
+
+        ModSounds.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
