@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.dotamusic.sppsevdo.desc"
+  },
+  "length_in_seconds": 100.0,
+  "sound_event": "dotamusic:sppsevdo"
+}

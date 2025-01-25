@@ -21,6 +21,14 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SPLESNIK = registerSoundEvent("splesnik");
     public static final ResourceKey<JukeboxSong> SPLESNIK_KEY = createSong("splesnik");
 
+    public static final Supplier<SoundEvent> GMCOIL = registerSoundEvent("gmcoil");
+    public static final ResourceKey<JukeboxSong> GMCOIL_KEY = createSong("gmcoil");
+
+    public static final Supplier<SoundEvent> OTETZ = registerSoundEvent("otetz");
+    public static final ResourceKey<JukeboxSong> OTETZ_KEY = createSong("otetz");
+
+    public static final Supplier<SoundEvent> SPPSEVDO = registerSoundEvent("sppsevdo");
+    public static final ResourceKey<JukeboxSong> SPPSEVDO_KEY = createSong("sppsevdo");
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
