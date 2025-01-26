@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.dotamusic.sarah.desc"
+  },
+  "length_in_seconds": 190.0,
+  "sound_event": "dotamusic:sarah"
+}

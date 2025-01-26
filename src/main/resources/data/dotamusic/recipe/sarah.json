@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "dotamusic:sarah",
+    "count": 1
+  }
+}

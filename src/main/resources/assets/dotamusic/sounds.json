@@ -30,5 +30,13 @@
         "stream": true
       }
     ]
+  },
+  "sarah": {
+    "sounds": [
+      {
+        "name": "dotamusic:sarah",
+        "stream": true
+      }
+    ]
   }
 }

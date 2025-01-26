@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GMCOIL);
                         output.accept(ModItems.OTETZ);
                         output.accept(ModItems.SPPSEVDO);
+                        output.accept(ModItems.SARAH);
                     })
                     .build());
 

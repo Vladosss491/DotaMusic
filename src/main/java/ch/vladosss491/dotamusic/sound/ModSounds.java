@@ -30,6 +30,11 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SPPSEVDO = registerSoundEvent("sppsevdo");
     public static final ResourceKey<JukeboxSong> SPPSEVDO_KEY = createSong("sppsevdo");
 
+    public static final Supplier<SoundEvent> SARAH = registerSoundEvent("sarah");
+    public static final ResourceKey<JukeboxSong> SARAH_KEY = createSong("sarah");
+
+
+
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(DotaMusic.MOD_ID, name));
