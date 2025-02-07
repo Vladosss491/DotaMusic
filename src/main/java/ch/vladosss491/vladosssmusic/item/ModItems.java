@@ -1,7 +1,7 @@
-package ch.vladosss491.dotamusic.item;
+package ch.vladosss491.vladosssmusic.item;
 
-import ch.vladosss491.dotamusic.DotaMusic;
-import ch.vladosss491.dotamusic.sound.ModSounds;
+import ch.vladosss491.vladosssmusic.VladosssMusic;
+import ch.vladosss491.vladosssmusic.sound.ModSounds;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
@@ -11,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
 
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DotaMusic.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(VladosssMusic.MOD_ID);
 
 
 
@@ -29,6 +29,12 @@ public class ModItems {
 
     public static final DeferredItem<Item> SARAH = ITEMS.register("sarah",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.SARAH_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> MEMORIES = ITEMS.register("memories",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MEMORIES_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> ROLLIN = ITEMS.register("rollin",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.ROLLIN_KEY).stacksTo(1)));
 
 
 

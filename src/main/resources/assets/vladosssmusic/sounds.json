@@ -1,0 +1,58 @@
+{
+  "splesnik": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:splesnik",
+        "stream": true
+      }
+    ]
+  },
+  "gmcoil": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:gmcoil",
+        "stream": true
+      }
+    ]
+  },
+  "otetz": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:otetz",
+        "stream": true
+      }
+    ]
+  },
+  "sppsevdo": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:sppsevdo",
+        "stream": true
+      }
+    ]
+  },
+  "sarah": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:sarah",
+        "stream": true
+      }
+    ]
+  },
+  "memories": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:memories",
+        "stream": true
+      }
+    ]
+  },
+  "rollin": {
+    "sounds": [
+      {
+        "name": "vladosssmusic:rollin",
+        "stream": true
+      }
+    ]
+  }
+}

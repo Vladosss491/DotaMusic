@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dotamusic:item/sarah"
+    "layer0": "vladosssmusic:item/sarah"
   }
 }

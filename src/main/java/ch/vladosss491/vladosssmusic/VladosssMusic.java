@@ -1,8 +1,8 @@
-package ch.vladosss491.dotamusic;
+package ch.vladosss491.vladosssmusic;
 
-import ch.vladosss491.dotamusic.item.ModCreativeModeTabs;
-import ch.vladosss491.dotamusic.item.ModItems;
-import ch.vladosss491.dotamusic.sound.ModSounds;
+import ch.vladosss491.vladosssmusic.item.ModCreativeModeTabs;
+import ch.vladosss491.vladosssmusic.item.ModItems;
+import ch.vladosss491.vladosssmusic.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -23,15 +23,15 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 
 
-@Mod(DotaMusic.MOD_ID)
-public class DotaMusic
+@Mod(VladosssMusic.MOD_ID)
+public class VladosssMusic
 {
 
-    public static final String MOD_ID = "dotamusic";
+    public static final String MOD_ID = "vladosssmusic";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public DotaMusic(IEventBus modEventBus, ModContainer modContainer)
+    public VladosssMusic(IEventBus modEventBus, ModContainer modContainer)
     {
         modEventBus.addListener(this::commonSetup);
 

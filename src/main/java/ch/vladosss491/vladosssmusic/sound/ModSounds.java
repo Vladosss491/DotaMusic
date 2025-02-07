@@ -1,6 +1,6 @@
-package ch.vladosss491.dotamusic.sound;
+package ch.vladosss491.vladosssmusic.sound;
 
-import ch.vladosss491.dotamusic.DotaMusic;
+import ch.vladosss491.vladosssmusic.VladosssMusic;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
-            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, DotaMusic.MOD_ID);
+            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, VladosssMusic.MOD_ID);
 
 
 
@@ -33,15 +33,21 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SARAH = registerSoundEvent("sarah");
     public static final ResourceKey<JukeboxSong> SARAH_KEY = createSong("sarah");
 
+    public static final Supplier<SoundEvent> MEMORIES = registerSoundEvent("memories");
+    public static final ResourceKey<JukeboxSong> MEMORIES_KEY = createSong("memories");
+
+    public static final Supplier<SoundEvent> ROLLIN = registerSoundEvent("rollin");
+    public static final ResourceKey<JukeboxSong> ROLLIN_KEY = createSong("rollin");
+
 
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
-        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(DotaMusic.MOD_ID, name));
+        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(VladosssMusic.MOD_ID, name));
     }
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(DotaMusic.MOD_ID, name);
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(VladosssMusic.MOD_ID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
 

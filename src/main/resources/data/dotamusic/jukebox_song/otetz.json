@@ -1,8 +1,8 @@
 {
   "comparator_output": 14,
   "description": {
-    "translate": "item.dotamusic.otetz.desc"
+    "translate": "item.vladosssmusic.otetz.desc"
   },
   "length_in_seconds": 240.0,
-  "sound_event": "dotamusic:otetz"
+  "sound_event": "vladosssmusic:otetz"
 }
