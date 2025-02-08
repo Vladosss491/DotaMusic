@@ -11,7 +11,7 @@
     "sounds": [
       {
         "name": "vladosssmusic:gmcoil",
-        "stream": true
+        "stream": false
       }
     ]
   },
